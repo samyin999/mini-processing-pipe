@@ -1,2 +1,3 @@
 *.dat  -text
 *.csv  -text
+mock-data/** -text
