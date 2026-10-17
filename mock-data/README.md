@@ -2,6 +2,15 @@
 
 Made-up data for minipipe. Nothing here is real: names, IDs, paths and contents are invented.
 
+## The exports
+
+| Export | Documents | What it's for |
+|---|---|---|
+| `export_0000` + `source_0000` | 5 | **Clean.** Nothing wrong: every native and text file present, right size and MD5; no line breaks, odd spaces or non-ASCII in values. An audit of it should find nothing. Start here. |
+| `export_0001` + `source_0001` | 10 | **Faulty.** Deliberate problems, listed in [ANSWERS.md](ANSWERS.md). |
+
+Both use the same format and fields, described below with `export_0001` as the example.
+
 ## export_0001: a review platform export (10 documents)
 
 | Path | What it is |
